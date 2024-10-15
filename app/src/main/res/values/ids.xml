@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fab1Play" type="id"/>
+    <item name="fab1Pause" type="id"/>
+    <item name="fab2Play" type="id"/>
+    <item name="fab2Pause" type="id"/>
+    <item name="fab3Play" type="id"/>
+    <item name="fab3Pause" type="id"/>
+    <item name="fab4Play" type="id"/>
+    <item name="fab4Pause" type="id"/>
+    <item name="fab5Play" type="id"/>
+    <item name="fab5Pause" type="id"/>
+</resources>

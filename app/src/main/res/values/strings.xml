@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Jai Ganesh Deva</string>
+    <string name="one">one</string>
+    <string name="two">Two</string>
+    <string name="three">Three</string>
+    <string name="title11">Jai Ganesh</string>
+    <string name="bhajan_title">Jai Ganesh Deva</string>
+    <string name="tab_view1">गणनायक शुभदायकाा</string>
+    <string name="tab_view2">सुखकर्ता दुखहर्ता</string>
+    <string name="tab_view3">वक्रतुण्ड महाकाय</string>
+    <string name="tab_view4">ॐ गं गणपतये</string>
+    <string name="tab_view5">गणनायक शुभदायका</string>
+    <string name="tab_view6">गजानन श्री गणराय</string>
+    <string name="tab_view7">कथा</string>
+    <string name="play_button">Play Button</string>
+    <string name="settings">Settings</string>
+    <string name="selectFontsize">Font Size</string>
+    <string name="textview">TextView</string>
+    <string name="fontsize">Medium (Default)</string>
+    <string name="splash">Splash</string>
+    <string name="main">Jai Ganesh Deva</string>
+    <string name="shareApp">Share App</string>
+    <string name="rateApp">Rate this App</string>
+    <string name="logoImage">Logo Image</string>
+    <string name="rateAppText">Do you have a few seconds to rate 5 star this app? We want to hear your opinion.</string>
+    <string name="version">App version</string>
+    <string name="versionCode">1.2</string>
+    <string name="shareAppText">If you have a minute, can you please help us to spread in the world about this application.</string>
+    <string name="rate_positive">Submit</string>
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_message">If you enjoy playing this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
+    <string name="rate_dialog_ok">Rate It Now</string>
+    <string name="rate_dialog_cancel">Remind Me Later</string>
+    <string name="rate_dialog_no">No, Thanks</string>
+    <string name="checkUpdate">Check for app update</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="feedback">Feedback</string>
+    <string name="label_play">Play</string>
+    <string name="label_pause">Pause</string>
+    <string name="label_stop">Stop</string>
+    <string name="todo">TODO</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="music_noti">Jai Ganesh Deva</string>
+    <string name="playing_music_noti">Playing Jai Ganesh Deva</string>
+    <string name="other_noti">Jai Ganesh Notification</string>
+    <string name="other_noti_1">You are listning to Bhajans</string>
+    <string name="cancelNotify">cancel</string>
+    <string name="firebase_notification_channel_id">414</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    !-- Preference framework strings. -->
+    <string name="ok">OK</string>
+    <!-- Preference framework strings. -->
+    <string name="cancel">Cancel</string>
+    <!-- Preference framework strings. -->
+    <string name="yes">OK</string>
+    <!-- Preference framework strings. -->
+    <string name="no">Cancel</string>
+    <!-- Other Settings -->
+    <string name="supportEmail">keshavpassi90@gmail.com</string>
+
+    <!-- Admob Settings Test -->
+<!--    <string name="banner_ad_id">ca-app-pub-3940256099942544/9214589741</string>-->
+
+<!--    <string name="app_open_id">ca-app-pub-3940256099942544/9257395921</string>-->
+
+<!--    <string name="ad_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+
+<!--Live Keys -->
+ <string name="banner_ad_id">ca-app-pub-2472704290232088/3236873827</string>
+
+    <string name="app_open_id">ca-app-pub-2472704290232088/4707508215</string>
+
+    <string name="ad_app_id">ca-app-pub-2472704290232088~5459712485</string>
+
+
+    <!-- Admob test device id-->
+    <string name="testDevice">33BE2250B43518CCDA7DE426D04EE231</string>
+
+    <string name="loading">Loading</string>
+    <string name="privacy_url">https://policies.google.com</string>
+</resources>

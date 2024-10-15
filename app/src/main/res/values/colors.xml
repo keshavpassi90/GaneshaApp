@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C777D5</color>
+<!--    <color name="colorPrimary">#cc8902</color>-->
+    <color name="colorPrimaryDark">#C777D5</color>
+<!--    <color name="colorPrimaryDark">#b57700</color>-->
+    <color name="colorAccent">#660876</color>
+<!--    <color name="colorAccent">#D81B60</color>-->
+    <color name="colorTabText">#E3B5EB</color>
+    <color name="colorTabSelectedText">#660876</color>
+<!--    <color name="colorTabSelectedText">#7d0b00</color>-->
+    <color name="colorCustomText">#660876</color>
+<!--    <color name="colorCustomText">#7d0b00</color>-->
+    <color name="colorWhiteBackground">#E3B5EB</color>
+    <color name="colorBlackText">#000000</color>
+    <color name="notification_bg">#E3B5EB</color>
+    <color name="splashText">#E3B5EB</color>
+    <color name="colorEquilizerAnimation">#E3B5EB</color>
+<!--    <color name="colorEquilizerAnimation">#e2cba7</color>-->
+</resources>

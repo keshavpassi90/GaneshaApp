@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "448350810849",
+    "project_id": "ganeshji-1f982",
+    "storage_bucket": "ganeshji-1f982.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448350810849:android:90cca406f6112f464a3da0",
+        "android_client_info": {
+          "package_name": "com.ganeshji.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL5y5joSAJGKVLid9eLFJlVDuKnocBZ8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
