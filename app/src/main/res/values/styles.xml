@@ -3,9 +3,10 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">#B3001C</item>
+        <item name="colorPrimaryDark">#B3001C</item>
+        <item name="colorAccent">#B3001C</item>
+        <item name="android:statusBarColor">#B3001C</item>
     </style>
 
     <style name="RoundImageButton">
@@ -29,6 +30,12 @@
     <style name="TabLayoutStyle" parent="Base.Widget.Design.TabLayout">
         <item name="android:textSize">16sp</item>
         <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- styles.xml -->
+    <style name="CircleImageViewStyle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
     </style>
 
 </resources>

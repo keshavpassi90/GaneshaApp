@@ -8,12 +8,26 @@
     android:orientation="vertical">
 
     <ImageView
+        android:elevation="40dp"
         android:id="@+id/imageView"
-        android:layout_width="170dp"
-        android:layout_height="170dp"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
         android:layout_gravity="center"
-        android:contentDescription="@string/logoImage"
-        android:src="@mipmap/ic_launcher"
+
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    
+<ImageView
+        android:elevation="40dp"
+
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+
+        android:src="@drawable/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,15 +37,36 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="@string/app_name"
-        android:textColor="#FFFFFF"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="जय गणेश देवा"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhiteBackground"
+
+        app:gtv_orientation="horizontal"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.0" />
+       />
+
+    <TextView
+        android:textStyle="bold"
+
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="सर्वमंगल मांगल्ये शिवे सर्वार्थ साधिके।\n
+शरण्ये त्र्यम्बके गौरि नारायणी नमोऽस्तु ते॥"
+        android:textColor="@color/colorWhiteBackground"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+       />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

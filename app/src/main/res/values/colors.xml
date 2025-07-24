@@ -11,10 +11,12 @@
 <!--    <color name="colorTabSelectedText">#7d0b00</color>-->
     <color name="colorCustomText">#660876</color>
 <!--    <color name="colorCustomText">#7d0b00</color>-->
-    <color name="colorWhiteBackground">#E3B5EB</color>
+    <color name="colorWhiteBackground">#FFFFFF</color>
     <color name="colorBlackText">#000000</color>
     <color name="notification_bg">#E3B5EB</color>
     <color name="splashText">#E3B5EB</color>
     <color name="colorEquilizerAnimation">#E3B5EB</color>
+    <color name="gradient_start">#660876</color>
+    <color name="gradient_end">#FF5722</color>
 <!--    <color name="colorEquilizerAnimation">#e2cba7</color>-->
 </resources>

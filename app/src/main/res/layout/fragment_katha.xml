@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:paddingTop="20dp"
+        android:id="@+id/toolbar"
+        android:background="@drawable/splashbg"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/backRL"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/imageView1"
+                android:src="@drawable/back"
+
+                android:layout_height="20dp"
+                android:layout_width="20dp"
+                app:tint="@color/colorWhiteBackground" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginRight="20sp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Kathas"
+            android:textSize="24sp"
+            android:textStyle="bold"
+
+            android:textColor="@color/colorWhiteBackground"
+            app:layout_constraintBottom_toBottomOf="@+id/backRL"
+            app:layout_constraintTop_toTopOf="@+id/backRL"
+            app:layout_constraintLeft_toRightOf="@+id/backRL"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        app:layout_constraintBottom_toTopOf="@+id/addLayoutLL"
+        android:id="@+id/aartiRecyclerRV"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_marginBottom="50dp"
+
+        android:id="@+id/addLayoutLL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical">
+
+        <!-- Your other views here -->
+
+        <com.google.android.gms.ads.AdView android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:background="#ffffff"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_ad_id_katha"></com.google.android.gms.ads.AdView>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

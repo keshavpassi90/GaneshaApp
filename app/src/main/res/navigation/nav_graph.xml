@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ganeshji.app.fragments.HomeFragment"
+        android:label="home" >
+        <action
+            android:id="@+id/action_list_to_detail"
+            app:destination="@id/homeDetailFragment" />
+     <action
+            android:id="@+id/action_list_to_aartiFragment"
+            app:destination="@id/aartiFragment" />
+     <action
+            android:id="@+id/action_list_to_kathaFragment"
+            app:destination="@id/kathaFragment" />
+    <action
+            android:id="@+id/action_list_to_mantraFragment"
+            app:destination="@id/mantraFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.ganeshji.app.fragments.FavoritesFragment"
+        android:label="favorites" >
+        <action
+            android:id="@+id/action_list_to_detail"
+            app:destination="@id/homeDetailFragment" />
+
+    </fragment>
+ <fragment
+        android:id="@+id/wallpaperFragment"
+        android:name="com.ganeshji.app.fragments.WallPaperFragment"
+        android:label="wallpaper" >
+     <action
+         android:id="@+id/action_wallpaperFragment_to_detailWallpaperFragment"
+         app:destination="@id/detailWallpaperFragment" />
+ </fragment>
+<fragment
+        android:id="@+id/detailWallpaperFragment"
+        android:name="com.ganeshji.app.fragments.DetailWallpaperFragment"
+        android:label="detailwallpaper">
+    <argument
+        android:name="url"
+        app:argType="string" />
+</fragment>
+<fragment
+        android:id="@+id/homeDetailFragment"
+        android:name="com.ganeshji.app.fragments.HomeDetailFragment"
+        android:label="homeDetail">
+    <argument
+        android:name="ganeshItem"
+        app:argType="com.ganeshji.app.retrofit.wallpaper_model.GaneshItem" />
+</fragment>
+<fragment
+        android:id="@+id/aartiFragment"
+        android:name="com.ganeshji.app.fragments.AartiFragment"
+        android:label="aartiFragment">
+
+    <action
+        android:id="@+id/action_list_to_detail"
+        app:destination="@id/homeDetailFragment" />
+
+</fragment>
+<fragment
+        android:id="@+id/kathaFragment"
+        android:name="com.ganeshji.app.fragments.KathaFragment"
+        android:label="kathaFragment">
+
+    <action
+        android:id="@+id/action_list_to_detail"
+        app:destination="@id/homeDetailFragment" />
+
+</fragment>
+<fragment
+        android:id="@+id/mantraFragment"
+        android:name="com.ganeshji.app.fragments.MantraFragment"
+        android:label="mantraFragment">
+
+    <action
+        android:id="@+id/action_list_to_detail"
+        app:destination="@id/homeDetailFragment" />
+
+</fragment>
+
+
+</navigation>

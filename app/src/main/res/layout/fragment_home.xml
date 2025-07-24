@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/tools"
+    android:gravity="center">
+<androidx.core.widget.NestedScrollView
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toTopOf="@+id/addLayoutLL"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/categoriesTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlackText"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/categoriesTabs"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/categoriesTV"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!-- Layout for Aartis-->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/aartiCL"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+
+                    app:cardElevation="2dp"
+                    cardView:layout_constraintTop_toTopOf="parent"
+                    cardView:layout_constraintLeft_toLeftOf="parent"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/aartiCard"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    cardView:cardCornerRadius="60dp"
+                    >
+
+                    <!-- Gradient background -->
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_katha_gradient">
+
+                        <ImageView
+                            android:id="@+id/aartiImage"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/music"
+                            app:tint="@color/colorWhiteBackground" />
+                    </FrameLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintRight_toRightOf="@+id/aartiCard"
+                    app:layout_constraintTop_toBottomOf="@+id/aartiCard"
+                    app:layout_constraintLeft_toLeftOf="@+id/aartiCard"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Aartis"
+                    android:textSize="15dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorBlackText"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+             <!-- Layout for katha-->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_marginLeft="20dp"
+                android:id="@+id/kathasCL"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/aartiCL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+
+                    app:cardElevation="2dp"
+                    cardView:layout_constraintTop_toTopOf="parent"
+                    cardView:layout_constraintLeft_toLeftOf="parent"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/kathaCard"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    cardView:cardCornerRadius="60dp"
+               >
+
+                <!-- Gradient background -->
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_aarti_gradient">
+
+                    <ImageView
+                        android:id="@+id/centerImage"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/book"
+                        app:tint="@color/colorWhiteBackground" />
+                </FrameLayout>
+
+            </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintRight_toRightOf="@+id/kathaCard"
+                    app:layout_constraintTop_toBottomOf="@+id/kathaCard"
+                    app:layout_constraintLeft_toLeftOf="@+id/kathaCard"
+                   android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kathas"
+                    android:textSize="15dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorBlackText"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+<!-- Layout for Mantra-->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_marginLeft="20dp"
+                android:id="@+id/mantraCL"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/kathasCL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+
+                    app:cardElevation="2dp"
+                    cardView:layout_constraintTop_toTopOf="parent"
+                    cardView:layout_constraintLeft_toLeftOf="parent"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/mantraCard"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    cardView:cardCornerRadius="60dp"
+               >
+
+                <!-- Gradient background -->
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_mantras_gradient">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/om"
+                        app:tint="@color/colorWhiteBackground" />
+                </FrameLayout>
+
+            </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintRight_toRightOf="@+id/mantraCard"
+                    app:layout_constraintTop_toBottomOf="@+id/mantraCard"
+                    app:layout_constraintLeft_toLeftOf="@+id/mantraCard"
+                   android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mantras"
+                    android:textSize="15dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorBlackText"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/categoriesTabs"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/lordGaneshTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Lord Ganesh Collection"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlackText"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="10dp"
+            android:id="@+id/recyclerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+
+           app:layout_constraintTop_toBottomOf="@+id/lordGaneshTV"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/addLayoutLL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical">
+
+        <!-- Your other views here -->
+
+        <com.google.android.gms.ads.AdView android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+           android:layout_centerVertical="true"
+            android:background="#ffffff"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_ad_id_home"></com.google.android.gms.ads.AdView>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

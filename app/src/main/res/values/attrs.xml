@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GradientTextView">
+        <attr name="gtv_orientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical"   value="1"/>
+        </attr>
+        <attr name="gtv_startColor" format="color"/>
+        <attr name="gtv_endColor"   format="color"/>
+    </declare-styleable>
+</resources>

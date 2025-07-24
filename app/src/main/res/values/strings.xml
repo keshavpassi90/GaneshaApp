@@ -1,82 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Jai Ganesh Deva</string>
-    <string name="one">one</string>
-    <string name="two">Two</string>
-    <string name="three">Three</string>
-    <string name="title11">Jai Ganesh</string>
-    <string name="bhajan_title">Jai Ganesh Deva</string>
-    <string name="tab_view1">गणनायक शुभदायकाा</string>
-    <string name="tab_view2">सुखकर्ता दुखहर्ता</string>
-    <string name="tab_view3">वक्रतुण्ड महाकाय</string>
-    <string name="tab_view4">ॐ गं गणपतये</string>
-    <string name="tab_view5">गणनायक शुभदायका</string>
-    <string name="tab_view6">गजानन श्री गणराय</string>
-    <string name="tab_view7">कथा</string>
-    <string name="play_button">Play Button</string>
-    <string name="settings">Settings</string>
-    <string name="selectFontsize">Font Size</string>
-    <string name="textview">TextView</string>
-    <string name="fontsize">Medium (Default)</string>
-    <string name="splash">Splash</string>
-    <string name="main">Jai Ganesh Deva</string>
-    <string name="shareApp">Share App</string>
+
+    <!-- =========   APP / ADMOB / POLICY   ========= -->
+    <string name="app_name">जय गणेश देव</string>
+    <string name="supportEmail">keshavpassi90@gmail.com</string>
+
+    <!--‑‑ AdMob TEST keys ‑‑-->
+<!--    <string name="banner_ad_id">ca-app-pub-3940256099942544/9214589741</string>-->
+<!--    <string name="app_open_id">ca-app-pub-3940256099942544/9257395921</string>-->
+<!--    <string name="ad_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+<!--    <string name="testDevice">33BE2250B43518CCDA7DE426D04EE231</string>-->
+
+    <!--‑‑ AdMob Live keys ‑‑-->
+
+    <string name="intersial_common">ca-app-pub-2472704290232088/4257346108</string>
+    <string name="banner_ad_id_home_detail">ca-app-pub-2472704290232088/4788377885</string>
+    <string name="banner_ad_id_wallpaper_detail">ca-app-pub-2472704290232088/5909887861</string>
+    <string name="banner_ad_id_mantra">ca-app-pub-2472704290232088/8899013286</string>
+    <string name="banner_ad_id_katha">ca-app-pub-2472704290232088/9278287235</string>
+    <string name="banner_ad_id_aarti">ca-app-pub-2472704290232088/2525176624</string>
+    <string name="banner_ad_id_wallpaper">ca-app-pub-2472704290232088/4708486831</string>
+    <string name="banner_ad_id_fav">ca-app-pub-2472704290232088/8647731846</string>
+    <string name="banner_ad_id_home">ca-app-pub-2472704290232088/3236873827</string>
+    <string name="app_open_id">ca-app-pub-2472704290232088/4707508215</string>
+    <string name="ad_app_id">ca-app-pub-2472704290232088~5459712485</string>
+
     <string name="rateApp">Rate this App</string>
-    <string name="logoImage">Logo Image</string>
+    <string name="shareApp">Share App</string>
+    <string name="shareAppText">If you have a minute, can you please help us to spread in the world about this application.</string>
     <string name="rateAppText">Do you have a few seconds to rate 5 star this app? We want to hear your opinion.</string>
     <string name="version">App version</string>
     <string name="versionCode">1.2</string>
-    <string name="shareAppText">If you have a minute, can you please help us to spread in the world about this application.</string>
-    <string name="rate_positive">Submit</string>
-    <string name="rate_dialog_title">Rate this app</string>
-    <string name="rate_dialog_message">If you enjoy playing this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
-    <string name="rate_dialog_ok">Rate It Now</string>
-    <string name="rate_dialog_cancel">Remind Me Later</string>
-    <string name="rate_dialog_no">No, Thanks</string>
     <string name="checkUpdate">Check for app update</string>
     <string name="privacy">Privacy Policy</string>
     <string name="feedback">Feedback</string>
-    <string name="label_play">Play</string>
-    <string name="label_pause">Pause</string>
-    <string name="label_stop">Stop</string>
-    <string name="todo">TODO</string>
-    <string name="play">Play</string>
-    <string name="stop">Stop</string>
-    <string name="music_noti">Jai Ganesh Deva</string>
-    <string name="playing_music_noti">Playing Jai Ganesh Deva</string>
-    <string name="other_noti">Jai Ganesh Notification</string>
-    <string name="other_noti_1">You are listning to Bhajans</string>
-    <string name="cancelNotify">cancel</string>
-    <string name="firebase_notification_channel_id">414</string>
-    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
-    !-- Preference framework strings. -->
-    <string name="ok">OK</string>
-    <!-- Preference framework strings. -->
-    <string name="cancel">Cancel</string>
-    <!-- Preference framework strings. -->
-    <string name="yes">OK</string>
-    <!-- Preference framework strings. -->
-    <string name="no">Cancel</string>
-    <!-- Other Settings -->
-    <string name="supportEmail">keshavpassi90@gmail.com</string>
 
-    <!-- Admob Settings Test -->
-<!--    <string name="banner_ad_id">ca-app-pub-3940256099942544/9214589741</string>-->
+    <string name="privacy_url">https://www.freeprivacypolicy.com/live/46b58a9a-a530-4af0-af61-3172797315fa</string>
+    <string name="jai_ganesh_deva_aarti">
+जय गणेश, जय गणेश, जय गणेश देवा।\n
+माता जाकी पार्वती, पिता महादेवा॥\n\n
 
-<!--    <string name="app_open_id">ca-app-pub-3940256099942544/9257395921</string>-->
+एकदन्त दयावन्त, चार भुजाधारी।\n
+माथे तिलक सोहे, मूसे की सवारी॥\n\n
 
-<!--    <string name="ad_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+पान चढ़े, फूल चढ़े और चढ़े मेवा।\n
+लड्डू चढ़े, साज चढ़े, संत करें सेवा॥\n\n
 
-<!--Live Keys -->
- <string name="banner_ad_id">ca-app-pub-2472704290232088/3236873827</string>
+अन्धन को आँख देत, कोढ़िन को काया।\n
+बांझन को पुत्र देत, निर्धन को माया॥\n\n
 
-    <string name="app_open_id">ca-app-pub-2472704290232088/4707508215</string>
+\'सूर\' श्याम शरण आये, सफल कीजे सेवा।\n
+जय गणेश, जय गणेश, जय गणेश देवा।\n
+माता जाकी पार्वती, पिता महादेवा॥
+</string>
 
-    <string name="ad_app_id">ca-app-pub-2472704290232088~5459712485</string>
+    <!-- =========   AARTIS   ========= -->
 
 
-    <!-- Admob test device id-->
-    <string name="testDevice">33BE2250B43518CCDA7DE426D04EE231</string>
+    <string name="aarti_shendur_lal_chadhayo">
+शेंदूर लाल चढ़ायो अच्छा गजमुख को।\n
+दोंदिल लाल बिराजे सुत गौरीहर को।\n
+हाथ लियो लड्डू लाल, सुरवर को।\n
+महिमा कहे न जाय, लागत हूं पाद को॥1॥\n\n
+जय जय श्री गणराज, विद्या सुखदाता।\n
+धन्य तुम्हारा दर्शन, मेरा मन रमता॥\n\n
+अष्टौ सिद्धि दासी, संकट को बैरी।\n
+विघ्नविनाशन मंगलमूर्ति अधिकारी।\n
+कोटी सूरज प्रकाश, ऐसी छवि तेरी।\n
+गंडस्थल मदमस्तक, झूले शशि बिहारी॥2॥\n\n
+भाव भक्ति से जो शरणागत आवे।\n
+संतत सम्पत सभी भरपूर पावे।\n
+ऐसे तुम महाराज, मोको अति भावे।\n
+गोसावीनंदन निशिदिन गुण गावे॥3॥\n\n
+जय जय श्री गणराज, विद्या सुखदाता।\n
+धन्य तुम्हारा दर्शन, मेरा मन रमता॥
+</string>
 
-    <string name="loading">Loading</string>
-    <string name="privacy_url">https://policies.google.com</string>
+    <string name="aarti_jai_ganeshji_ki">
+जय गणेशजी की, जय गणेशजी की,\n
+आरती करें हम सब गणेशजी की।\n
+जय गणेशजी की, जय गणेशजी की,\n
+आरती करें हम सब गणेशजी की।\n\n
+
+आप हैं स्वामी दुःख हर्ता,\n
+दुखियों के पालनकर्ता।\n
+आप हैं भगवन सुखदाता,\n
+ॐ जय जय श्री गणनाथा।\n\n
+
+हम सब शरण में हैं भगवन,\n
+ओ शिव केन, मूषक वाहन।\n
+जय गणेशजी की, जय गणेशजी की,\n
+आरती करें हम सब गणेशजी की।\n\n
+
+आप तो हैं गौरी नंदन,\n
+आपको है मन से वंदन।\n
+आप तो हैं जन सुखदायक,\n
+कहती है दुनिया गणनायक।\n\n
+
+आपकी पूजा घर‑घर में,\n
+कष्ट निवारे पल भर में।\n
+जय गणेशजी की, जय गणेशजी की,\n
+आरती करें हम सब गणेशजी की।
+</string>
+
+    <string name="aarti_sukhkarta_dukhharta">
+सुखकर्ता दुखहर्ता वार्ता विघ्नाची।\n
+नुरवी पुरवी प्रेम कृपा जयाची।\n
+सर्वांगी सुन्दर उटि शेंदुराची।\n
+कण्ठी झळके माळ मुक्ताफळांची॥\n\n
+
+जय देव जय देव जय मंगलमूर्ति।\n
+दर्शनमात्रे मनकामना पुरती॥\n\n
+
+रत्नखचित फरा तुज गौरीकुमरा।\n
+चंदनाची उटि कुंकुमकेशरा।\n
+हिरे जड़ित मुकुट शोभतो बरा।\n
+रुणझुणती नूपुरे चरणी घागरिया॥\n\n
+
+जय देव जय देव जय मंगलमूर्ति।\n
+दर्शनमात्रे मनकामना पुरती॥\n\n
+
+लंबोदर पीताम्बर फणिवर बन्धना।\n
+सरळ सूंड वक्रतुण्ड त्रिनयना।\n
+दास रामाचा वाट पाहे सदना।\n
+संकटी पावावे, निर्वाणी रक्षावे, सुरवर वन्दना॥\n\n
+
+जय देव जय देव जय मंगलमूर्ति।\n
+दर्शनमात्रे मनकामना पुरती॥
+</string>
+
+    <!-- =========   MANTRAS (no duplicates)   ========= -->
+    <string name="mantra_vakratunda_mahakaya">
+वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।\n
+निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥
+</string>
+    <string name="mantra_ekadantaya">ॐ एकदन्ताय विद्महे वक्रतुण्डाय धीमहि। तन्नो दन्ती प्रचोदयात्॥</string>
+    <string name="mantra_om_gam">ॐ गं गणपतये नमः॥</string>
+    <string name="mantra_ganpataye">ॐ श्रीं गं सौभाग्य गणपतये वर वरद सर्वजनं मे वशमानय स्वाहा॥</string>
+    <string name="mantra_shreem_hreem">ॐ श्रीं ह्रीं क्लीं ग्लौं गं गणपतये वर वरद सर्वजनं मे वशमानय स्वाहा॥</string>
+    <string name="mantra_heramba">ॐ नमो हेरम्ब मदमोहित मम संकटान् निवारय निवारय स्वाहा॥</string>
+    <string name="mantra_kshipra">गं क्षिप्रप्रसादनाय नमः॥</string>
+
+    <string name="mantra_chamaka">ॐ क्लीं ह्रीं श्रीं ऐं ग्लौं ॐ ह्रीं क्रौं गं ॐ नमो भगवते महागणपतये स्मरणमात्रसन्तुष्टाय सर्वविद्याप्रकाशाय सर्वकामप्रधानाय भवबन्धविमोचनाय स्वाहा॥</string>
+    <string name="mantra_ganesh_gayatri">
+ॐ एकदन्ताय विद्महे\n
+वक्रतुण्डाय धीमहि\n
+तन्नो दन्ति प्रचोदयात्॥
+</string>
+
+    <!-- =========   KATHAS (already validated)   ========= -->
+    <!-- retaining previous <string> entries for katha and stotram without change -->
+
+    <string name="ek_dant_katha">
+एक बार महर्षि परशुराम, भगवान शिव से मिलने कैलाश पर्वत पहुँचे।\n
+गणेश जी ने उन्हें द्वार पर रोक लिया, क्योंकि शिव जी माता पार्वती के साथ विश्राम कर रहे थे।\n\n
+परशुराम को यह अपमानजनक लगा और उन्होंने क्रोधित होकर अपने फरसे से गणेश जी पर प्रहार कर दिया।\n
+गणेश जी ने प्रहार सहा, लेकिन उनका एक दांत टूट गया।\n
+तभी से गणेश जी को “एकदंत” कहा जाने लगा — अर्थात् एक दांत वाले।\n\n
+जब माता पार्वती को यह ज्ञात हुआ, तो वह बहुत क्रोधित हुईं।\n
+परशुराम जी ने अपनी भूल स्वीकार की और गणेश जी से क्षमा माँगी।\n
+भगवान शिव ने उन्हें शांत किया और गणेश जी ने उन्हें क्षमा कर दिया।\n\n
+यह कथा हमें सिखाती है कि संयम, क्षमा और धैर्य से हम किसी भी स्थिति को सुलझा सकते हैं।\n
+गणपति बप्पा मोरया!
+</string>
+
+    <string name="ganesh_janam_katha_full">
+एक बार कैलाश पर्वत पर माता पार्वती स्नान करना चाहती थीं।\n
+उन्होंने अपने तन की मैल से एक बालक की मूर्ति बनाई और उसमें प्राण डाल दिए।\n
+उस बालक को उन्होंने आदेश दिया कि जब तक वह स्नान न कर लें,\n
+तब तक किसी को भी महल में प्रवेश न करने दे।\n\n
+
+उसी समय भगवान शिव वहाँ आए और भीतर जाने लगे।\n
+बालक ने उन्हें रोक दिया क्योंकि वह अपनी माता का आदेश मान रहा था।\n
+भगवान शिव को यह अपमानजनक लगा और क्रोध में आकर\n
+उन्होंने बालक का सिर काट दिया।\n\n
+
+जब पार्वती जी बाहर आईं और अपने पुत्र को मरा हुआ देखा,\n
+तो वह अत्यंत दुखी और क्रोधित हुईं।\n
+उन्होंने शिवजी से कहा कि यदि मेरे पुत्र को पुनः जीवित नहीं किया गया,\n
+तो मैं सृष्टि का विनाश कर दूंगी।\n
+सभी देवताओं ने पार्वती को शांत करने का प्रयास किया।\n\n
+
+तब भगवान शिव ने अपने गणों को आदेश दिया कि वे उत्तर दिशा में जाएं\n
+और जो प्राणी सबसे पहले मिले, उसका सिर लेकर आएं।\n
+उन्हें एक हाथी मिला और वे उसका सिर लेकर आए।\n
+भगवान शिव ने उस सिर को बालक के शरीर से जोड़ दिया\n
+और उसे पुनः जीवित कर दिया।\n\n
+
+भगवान शिव ने उसे आशीर्वाद दिया कि वह सभी देवताओं में अग्रणी होगा\n
+और उसकी पूजा सभी देवताओं से पहले की जाएगी।\n
+तभी से वे “गणेश”, “गणपति”, “विघ्नहर्ता” और “प्रथम पूज्य” कहलाए।\n\n
+
+गणेश जी की यह कथा हमें यह सिखाती है कि\n
+आज्ञा पालन, भक्ति और धैर्य से किसी भी कठिन परिस्थिति को बदला जा सकता है।
+</string>
+
+    <string name="katha_prithvi_parikrama">
+एक बार भगवान शिव और माता पार्वती के दो पुत्र — गणेश और कार्तिकेय — के बीच यह विवाद हो गया कि इन दोनों में श्रेष्ठ कौन है।\n\n
+
+तब माता-पिता ने एक प्रतियोगिता रखी। उन्होंने कहा: "जो भी पहले तीन बार पृथ्वी की परिक्रमा करेगा, वही श्रेष्ठ माना जाएगा।"\n\n
+
+कार्तिकेय तुरंत अपने वाहन मयूर पर सवार होकर पृथ्वी की परिक्रमा के लिए निकल गए। उन्होंने समुद्र, पर्वत, जंगल और नगर पार करते हुए पृथ्वी की तीन परिक्रमा शुरू की।\n\n
+
+वहीं गणेश जी थोड़े स्थिर स्वभाव के थे। उन्होंने शांति से विचार किया और माता पार्वती और पिता शिव के पास गए। फिर उन्होंने उनकी तीन बार परिक्रमा की।\n\n
+
+सब चकित हो गए और पूछा — "तुमने पृथ्वी की परिक्रमा क्यों नहीं की?"\n\n
+
+गणेश जी ने मुस्कराते हुए कहा: "माता और पिता ही मेरे लिए संपूर्ण ब्रह्मांड हैं। उनकी परिक्रमा करना ही पृथ्वी की परिक्रमा के समान है।"\n\n
+
+यह उत्तर सुनकर शिव और पार्वती बहुत प्रसन्न हुए और उन्होंने गणेश जी को आशीर्वाद दिया कि "तुम पहले पूजे जाओगे। हर शुभ कार्य की शुरुआत तुम्हारे नाम से होगी।"\n\n
+
+इस प्रकार, गणेश जी को "प्रथम पूज्य" का सम्मान प्राप्त हुआ।
+</string>
+
+
+    <string name="katha_sankat_chauth">
+एक समय की बात है, एक ब्राह्मण और उसकी पत्नी रहते थे। वे दोनों बहुत धार्मिक और गणेश जी के भक्त थे।\n
+उनकी कोई संतान नहीं थी। उन्होंने कई व्रत-उपवास किए, यज्ञ किए, परंतु कोई लाभ नहीं हुआ।\n\n
+एक दिन पत्नी ने किसी साधु से संकट चौथ व्रत के बारे में सुना। उन्होंने पूरी श्रद्धा से यह व्रत किया और गणेश जी से संतान की कामना की।\n
+कुछ समय बाद उन्हें एक सुंदर पुत्र की प्राप्ति हुई।\n\n
+बच्चा धीरे-धीरे बड़ा होने लगा। एक बार वह किसी काम से बाहर गया, तभी राजा के सेवकों ने उसे चोरी के झूठे आरोप में बंदी बना लिया।\n
+ब्राह्मण दंपत्ति दुखी हो गए और उन्होंने पुनः संकट चौथ व्रत किया।\n\n
+गणेश जी ने उनके सपने में आकर कहा – “चिंता मत करो, तुम्हारा पुत्र निर्दोष है। सुबह होते ही वह मुक्त हो जाएगा।”\n
+वास्तव में अगली सुबह राजा को सच्चाई का पता चला और उन्होंने ब्राह्मण पुत्र को छोड़ दिया।\n\n
+इस प्रकार संकट चौथ का व्रत करने से सारे कष्ट दूर होते हैं और संतान सुख व समृद्धि की प्राप्ति होती है।
+</string>
+
+
+    <string name="katha_kuber_aur_ganesh">
+एक बार धन के देवता कुबेर को अपने ऐश्वर्य और धन पर घमंड हो गया।\n
+वे भगवान शिव को अपने महल में भोजन के लिए आमंत्रित करने कैलाश पर्वत पहुँचे।\n
+शिवजी ने कहा – "मैं नहीं आ सकता, पर मेरे पुत्र गणेश को भेजता हूँ।"\n\n
+कुबेर ने सोचा कि छोटा बालक क्या खाएगा? लेकिन जब गणेश जी भोजन करने बैठे,\n
+तो उन्होंने एक के बाद एक व्यंजन खाना शुरू किया और सारा महल का भोजन खा गए।\n\n
+कुबेर ने और भोजन मंगवाया, पर गणेश जी का पेट नहीं भरा।\n
+उन्होंने कुबेर से कहा, "अगर तुमने मेरा पेट नहीं भरा, तो मैं तुम्हें ही खा जाऊँगा।"\n\n
+कुबेर डर गए और भागते हुए शिवजी के पास पहुँचे। उन्होंने सारी बात बताई।\n
+शिवजी मुस्कुराए और एक मुट्ठी चावल उन्हें दिए।\n\n
+कुबेर ने जाकर वह चावल गणेश जी को प्रेमपूर्वक अर्पित किए।\n
+गणेश जी संतुष्ट हो गए और बोले – “कुबेर, भोजन प्रेम और श्रद्धा से अर्पित किया जाए, न कि घमंड से।”\n\n
+इस प्रकार कुबेर का अहंकार दूर हो गया और उन्होंने सच्चे मन से गणेश जी की भक्ति की।
+</string>
+
+    <string name="katha_ganesh_chandra">
+कथा - गणेश जी और चंद्रमा\n\n
+एक बार गणेश जी को चंद्रमा ने उनका मोटा शरीर देखकर उनका मज़ाक उड़ाया।\n
+गणेश जी को बहुत बुरा लगा और उन्होंने क्रोध में आकर चंद्रमा को श्राप दे दिया,\n
+"तू आज से अकारण हँसा है, इसलिए अब से तुझे कोई नहीं देखेगा। जो देखेगा, उस पर दोष लगेगा।"\n\n
+चंद्रदेव ने बहुत विनती की, तब गणेश जी ने श्राप में थोड़ा संशोधन किया।\n
+गणेश जी ने कहा, "जो कोई भाद्रपद शुक्ल चतुर्थी की रात को तुम्हें देखेगा,\n
+उसे झूठे कलंक का सामना करना पड़ेगा।"\n\n
+इसी कारण गणेश चतुर्थी की रात चंद्र दर्शन वर्जित माने जाते हैं।\n
+अगर भूलवश चंद्रमा दिख जाए, तो "श्रीकृष्ण-स्यमन्तक कथा" सुनने से दोष दूर होता है।
+</string>
+
+
 </resources>

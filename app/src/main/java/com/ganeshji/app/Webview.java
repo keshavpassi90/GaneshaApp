@@ -2,7 +2,6 @@ package com.ganeshji.app;
 
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -21,6 +20,7 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import java.util.Objects;
@@ -28,10 +28,10 @@ import java.util.Objects;
 public class Webview extends AppCompatActivity {
     public static final String PRIVACY_URL = "privacy_url";
     private WebView wv1;
-    Toolbar toolbar;
+    RelativeLayout backRL;
     Dialog dialog;
     private static final String TAG = "Main";
-    @SuppressLint("SetJavaScriptEnabled")
+    @SuppressLint({"SetJavaScriptEnabled", "MissingInflatedId"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,15 +39,14 @@ public class Webview extends AppCompatActivity {
         if (url == null || url.isEmpty()) finish();
         setContentView(R.layout.activity_webview);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar_id);
+        backRL =  findViewById(R.id.back);
 
-        setSupportActionBar(toolbar);
-        Objects.requireNonNull(getSupportActionBar()).setTitle(getString(R.string.privacy));
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+
+
+        backRL.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                finish();
+            public void onClick(View view) {
+                onBackPressed();
             }
         });
         final AlertDialog alertDialog = new AlertDialog.Builder(this).create();
@@ -112,12 +111,12 @@ public class Webview extends AppCompatActivity {
         if (show){
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                builder.setView(R.layout.loader);
-            }else{
-                @SuppressLint("InflateParams") View view = getLayoutInflater().inflate(R.layout.loader,null);
-                builder.setView(view);
-            }
+//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+//                builder.setView(R.layout.loader);
+//            }else{
+//                @SuppressLint("InflateParams") View view = getLayoutInflater().inflate(R.layout.loader,null);
+//                builder.setView(view);
+//            }
             builder.setCancelable(false);
             dialog = builder.create();
             Window window = dialog.getWindow();

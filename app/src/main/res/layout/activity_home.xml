@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:paddingTop="30dp"
+        android:id="@+id/toolbar"
+        android:background="@drawable/splashbg"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+
+        <com.makeramen.roundedimageview.RoundedImageView
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imageView1"
+            android:src="@drawable/toolbar_home"
+            android:padding="5dp"
+            app:riv_oval="true"
+            android:layout_height="75dp" android:layout_width="75dp"/>
+
+        <TextView
+
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="जय गणेश देवा"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhiteBackground"
+
+            android:layout_marginRight="20dp"
+app:layout_constraintRight_toLeftOf="@+id/settings"            android:shadowRadius="30"
+           app:layout_constraintBottom_toBottomOf="@+id/imageView1"
+            app:layout_constraintTop_toTopOf="@+id/imageView1"
+          app:layout_constraintLeft_toRightOf="@+id/imageView1"
+            />
+
+
+        <RelativeLayout
+            android:id="@+id/settings"
+app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_settings"
+
+                android:layout_height="25dp"
+                android:layout_width="25dp"
+                app:tint="@color/colorWhiteBackground" />
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <!-- Main content (replace with FragmentContainerView if using fragments) -->
+
+        <androidx.fragment.app.FragmentContainerView
+            app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_above="@id/bottom_navigation"
+            android:id="@+id/nav_host_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:navGraph="@navigation/nav_graph"
+            app:defaultNavHost="true"/>
+
+
+
+        <!-- Bottom Navigation -->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:itemBackground="@android:color/transparent"
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:menu="@menu/bottom_nav_menu"
+            app:labelVisibilityMode="labeled"
+            app:itemIconTint="#B3001C"
+            app:itemRippleColor="@null"
+android:background="@null"
+            app:itemTextColor="#B3001C"
+            app:backgroundTint="@color/colorWhiteBackground"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

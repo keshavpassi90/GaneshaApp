@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlackText"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:paddingTop="20dp"
+        android:id="@+id/toolbar"
+        android:background="@drawable/splashbg"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/backRL"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/imageView1"
+                android:src="@drawable/back"
+
+                android:layout_height="20dp"
+                android:layout_width="20dp"
+                app:tint="@color/colorWhiteBackground" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginRight="20sp"
+app:layout_constraintRight_toRightOf="parent"
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Wallpaper"
+            android:textSize="24sp"
+            android:textStyle="bold"
+android:textColor="@color/colorWhiteBackground"
+            app:layout_constraintBottom_toBottomOf="@+id/backRL"
+            app:layout_constraintTop_toTopOf="@+id/backRL"
+            app:layout_constraintLeft_toRightOf="@+id/backRL"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomCV"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="fitXY" />
+
+
+<LinearLayout
+android:id="@+id/bottomCV"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:layout_margin="30dp"
+android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:padding="15dp"
+        android:text="Set As Wallpaper"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:elevation="20dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhiteBackground"
+        android:background="@drawable/splashbg"
+android:id="@+id/setWallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/addLayoutLL"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical">
+
+        <!-- Your other views here -->
+
+        <com.google.android.gms.ads.AdView android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:background="#ffffff"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_ad_id_wallpaper_detail"></com.google.android.gms.ads.AdView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
