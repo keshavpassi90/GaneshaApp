@@ -6,11 +6,19 @@
     <string name="supportEmail">keshavpassi90@gmail.com</string>
 
     <!--‑‑ AdMob TEST keys ‑‑-->
-<!--    <string name="banner_ad_id">ca-app-pub-3940256099942544/9214589741</string>-->
 <!--    <string name="app_open_id">ca-app-pub-3940256099942544/9257395921</string>-->
 <!--    <string name="ad_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
-<!--    <string name="testDevice">33BE2250B43518CCDA7DE426D04EE231</string>-->
+<!--&lt;!&ndash;    <string name="testDevice">33BE2250B43518CCDA7DE426D04EE231</string>&ndash;&gt;-->
 
+<!--    <string name="intersial_common">ca-app-pub-3940256099942544/9214589741</string>-->
+<!--    <string name="banner_ad_id_home_detail">ca-app-pub-3940256099942544/9214589741</string>-->
+<!--    <string name="banner_ad_id_wallpaper_detail">ca-app-pub-3940256099942544/9214589741</string>-->
+<!--    <string name="banner_ad_id_mantra">ca-app-pub-3940256099942544/9214589741</string>-->
+<!--    <string name="banner_ad_id_katha">ca-app-pub-3940256099942544/9214589741</string>-->
+<!--    <string name="banner_ad_id_aarti">ca-app-pub-3940256099942544/9214589741</string>-->
+<!--    <string name="banner_ad_id_wallpaper">ca-app-pub-3940256099942544/9214589741</string>-->
+<!--    <string name="banner_ad_id_fav">ca-app-pub-3940256099942544/9214589741</string>-->
+<!--    <string name="banner_ad_id_home">ca-app-pub-3940256099942544/9214589741</string>-->
     <!--‑‑ AdMob Live keys ‑‑-->
 
     <string name="intersial_common">ca-app-pub-2472704290232088/4257346108</string>
