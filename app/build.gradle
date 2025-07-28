@@ -12,13 +12,12 @@ android {
         applicationId "com.ganeshji.app"
         minSdk = 21
         targetSdk = 35
-        versionCode = 8
-        versionName = "1.0.8"
+        versionCode = 10
+        versionName = "2.0.0"
     }
     buildTypes {
         release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
         }
     }
 }
@@ -71,6 +70,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging:23.4.1'
     implementation 'com.google.firebase:firebase-crashlytics:18.6.1'
     implementation 'com.google.firebase:firebase-analytics:21.5.1'
+    implementation 'androidx.fragment:fragment:1.6.2'
 
 
 }
